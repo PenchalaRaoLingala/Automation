@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-31T11:29:15 IST" name="First Test Suite" finished-at="2023-05-31T11:29:28 IST" duration-ms="13390">
+    <groups>
+    </groups>
+    <test started-at="2023-05-31T11:29:15 IST" name="ChromeTest" finished-at="2023-05-31T11:29:28 IST" duration-ms="13390">
+      <class name="com.webapp.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.webapp.LoginTest@3ce1e309]" started-at="2023-05-31T11:29:15 IST" name="setUp" finished-at="2023-05-31T11:29:18 IST" duration-ms="3453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="positiveLoginTest()[pri:0, instance:com.webapp.LoginTest@3ce1e309]" started-at="2023-05-31T11:29:18 IST" name="positiveLoginTest" finished-at="2023-05-31T11:29:28 IST" duration-ms="9740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.webapp.LoginTest@3ce1e309]" started-at="2023-05-31T11:29:28 IST" name="TearDown" finished-at="2023-05-31T11:29:28 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.webapp.LoginTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- First Test Suite -->
+</testng-results>
